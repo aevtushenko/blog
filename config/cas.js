@@ -1,4 +1,4 @@
-/*var CASAuthentication = require('cas-authentication');
+var CASAuthentication = require('cas-authentication');
 
 
 // See https://github.com/kylepixel/cas-authentication
@@ -9,4 +9,4 @@ module.exports = function(host, port, casUrl){
       cas_version     : '1.0'
   });
   return cas;
-}; */
+}; 

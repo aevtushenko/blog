@@ -55,7 +55,7 @@ module.exports = function(app, host, port, sessionSecret){
       activeDuration: duration
   }));
 
-/*  var auth = cas(host, port);
+  var auth = cas(host, port);
 
   // This route will de-authenticate the client with the Express server and then
   // redirect the client to the CAS logout page.
@@ -63,7 +63,7 @@ module.exports = function(app, host, port, sessionSecret){
 
   // All other routes require CAS authorization
   app.use(auth.bounce);  
-*/
+
   // Get the homepage
   app.get('/', function (req, res) {
     res.render('index.html', {});
