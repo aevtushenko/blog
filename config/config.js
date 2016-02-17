@@ -62,7 +62,7 @@ module.exports = function(app, host, port, sessionSecret){
   app.get( '/logout', auth.logout );
 
   // All other routes require CAS authorization
-  app.use(auth.bounce);
+  app.use(auth.bounce);  
 
   // Get the homepage
   app.get('/', function (req, res) {
