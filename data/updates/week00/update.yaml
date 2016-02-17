@@ -5,30 +5,26 @@ summary: |
   real world is even more exciting. Join us for the ride.
 news:
 ---
-  - title: MVP
-summary: |
-  The most valuable player is the idea. Please find a draft or our thoughts
-  below.
-description:
-  - title: Customer
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
-     The primary customer of this app is the group of Yale college students that 
-     is looking for a late-night snack in their buttery (or another buttery on 
-     campus).
-  - title: Pain
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+MVP
+
+    The most valuable player is the idea. Please find a draft of our thoughts
+    below.
+
+Customer
+   
+    The primary customer of this app is the group of Yale college students that 
+    is looking for a late-night snack in their buttery (or another buttery on 
+    campus).
+
+Pain
+   
       *There is no centralized location of menus, times, or locations for the 
       campus butteries. 
       *Students have to go to the buttery to place their order, where things 
       are either out of stock/there is a long wait for food.
-  - title: Solution
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+Solution
+
       A web application that lists the butteries, their hours, locations and 
       menus would resolve the first problem, as there would be a central website 
       that students could go to to obtain information on the butteries. The web 
@@ -37,20 +33,18 @@ description:
       would allow each buttery manager to edit the menu as they see fit (or run 
       out of a product). Think about it as a Yale Dining App for butteries, with 
       additional features (ordering, music requests, etc.)
-  - title: How we know this is a problem
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+How we know this is a problem
+
       Nick is a buttery manager, and has noticed that fewer students are coming
       to his own buttery (and others through talking to the managers) because 
       they are too busy to be distracted by buttery culture. In addition, many 
       people do not know when their own butteries (or others, for that matter) 
       are open, and are usually pleasantly surprised when they find out that 
       Davenport’s buttery is open on weekends.
-  - title: Acquiring customers
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+Acquiring customers
+ 
       To reach these customers, each individual buttery manager can advertise 
       the website through their college’s panlist server (which sends to all 
       residents of that particular college). Most butteries send out an email 
@@ -59,18 +53,16 @@ description:
       out college-wide updates to all students. Social media posts would also 
       advertise to each student’s personal connections, and would hopefully 
       broaden the market of users.
-  - title: Profitability
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+Profitability
+
       The app itself would be non-profit (meaning, the information and service 
       would be provided to butteries and students at no cost). However, we hope
       that the web application will increase the profits of the butteries around 
       campus.
-  - title: Risks
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+Risks
+
       *Other buttery managers do not buy into the service 
       *Students do not use the web application for information or ordering
       *The online ordering system destroys the culture of hanging out with 
@@ -79,10 +71,9 @@ description:
       glitchy/difficult to use by buttery teams across campus
       *The buttery managers fail to update information and the web application 
       falls out of use due to old, static information
-  - title: Handling risks
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+ 
+ Handling risks
+  
       By piloting the project in Davenport’s buttery first, we can easily work 
       out glitches for other butteries, and can get user feedback from the 
       customers there. This gives us an opportunity to talk with users, and ask 
@@ -93,10 +84,9 @@ description:
       decides to use the built-in ordering system, we will have an application 
       that will give the student body information as to what’s going on in the 
       butteries, working hours and location in the least.
-  - title: Functionality
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+ 
+ Functionality
+ 
       Since our website will connect students to their butteries, we plan to 
       develop relationships with all 12 buttery managers so they can connect 
       with their prospective customers through each 400-person residential 
@@ -114,10 +104,9 @@ description:
       song on Spotify), Request Food (where you can send suggestions to buttery 
       managers on what to carry), and a Feedback/Contact Us for internal 
       development. 
- - title: Architecture
-    invalidated: false # whether this has been invalidated. Used to show change
-    confidence: 5
-    description: |
+
+Architecture
+
     *The data for this application follows a more or less static structure. The 
     only properties that differ between butteries are menu items which just 
     involves adding more rows. The properties (name, price, availability) pretty
