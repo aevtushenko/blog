@@ -5,10 +5,10 @@ app:
   url: none yet
   twitter_username: none yet
   repo: none yet
-  tagline: Buttery experience made better.
+  tagline: A better way to meet up
   value: |
-    For hungry Yalies confused about buttery details
-    YDB is a web-app that provides information on hours, menu, and location of the 12 Yale Butteries.
+    For students confused about each other's schedules and generally overwhelmed
+    Meetoo is a convenient way to see what friends are up to and join them.
 members:
   - first_name: Joyce
     last_name: Chen
