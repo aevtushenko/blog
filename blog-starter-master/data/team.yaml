@@ -1,0 +1,26 @@
+---
+name: jean
+app:
+  name: YaleDining for Butteries
+  url: none yet
+  twitter_username: none yet
+  repo: none yet
+  tagline: Buttery experience made better.
+  value: |
+    For hungry Yalies confused about buttery details
+    YDB is a web-app that provides information on hours, menu, and location of the 12 Yale Butteries.
+members:
+  - first_name: Joyce
+    last_name: Chen
+    email: joyce.chen@yale.edu
+  - first_name: Eryk
+    last_name: Banatt
+    email: eryk.banatt@yale.edu
+  - first_name: Anna
+    last_name: Evtushenko
+    email: anna.evtushenko@yale.edu
+  - first_name: Nick
+    last_name: Friedlander
+    email: nicholas.friedlander@yale.edu
+---
+YES
