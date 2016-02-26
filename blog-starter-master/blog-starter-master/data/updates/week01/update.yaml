@@ -1,0 +1,59 @@
+---
+title: A week of almost despair and the new hope
+summary: |
+  When an idea fails, one might wail, or come up with a new one. Introducing Meetoo.
+news:
+---
+
+Customer
+   
+    The primary customer of this app is the group of college students or younger people in an urban area.
+
+
+Pain
+   
+      People generally want to engage in activities (go to a dining hall to eat dinner, see Deadpool or hang out at a bar) but do not want to go alone or do not know which of their friends are free at that time.
+
+
+Solution
+
+     A web application where users can post what they want to do, the time frame in which they would like to do it, and where they would like to go. Anyone else who is in this person’s “circles” (whether these are added manually from a list of Facebook friends, other users, etc.) can see what this person would like to do, and can send them a notification through the app saying that they’re available and would like to join.
+
+
+How we know this is a problem
+
+     There are many Yale students (ouselves included) who are looking for a friend to get lunch with, but usually strikeout with the first few friends that they ask because they are busy. With this web application, they would be able to reach a wide variety of friends on one platform, would not be bothering their friends with constant text messages, and would know that the person accepting the invitation is available at this time.
+
+
+Acquiring customers
+ 
+      To acquire customers, the use of social media and word of mouth will be most applicable to start on Yale’s campus (and our original pilot location). Once the project gets more widely used, either having someone as a “point person” for the app in central locations (New York City, Chicago, etc.) would be able to advertise in their cities, which would hopefully provide more users.
+
+
+Profitability
+
+      The app itself would be non-profit (meaning, the information and service would be provided to users at no cost). However, it may make sense to use a “Freemium” plan at some point, where certain features (still to be determined) would be available for a subscription or a flat fee. Advertising events/concerts in the are could also be a way to monetize.
+
+Risks
+
+      * People would rather just text their friends than post it on an app
+      * This adds yet another thing for people to check for social plans (in addition to GroupMe, WhatsApp, Facebook, etc.)
+      * To make this work, it will require a lot of users, otherwise the app will not be fun to use
+      * People may not want to grab lunch with “a friend” versus “a specific friend”
+      * The app does not do a great job of filtering real requests versus lewd/fake requests
+
+ 
+ Handling risks
+  
+      By piloting the project with Yale students, we will be able to see what issues the college student population has. It will also give us an opportunity to see if this is of interest to consumers, or whether they would actually rather just text their friends. To do this, we will develop a simple version of the app where only Yale students are allowed to sign up, and we will see how many people actually set up meetings with their friends through the app.
+
+ 
+ Functionality
+ 
+      When I go to the landing page, I am briefly introduced to the idea and see a question. "We're excited" and a button saying "Meetoo." Upon clicking on it the user logs into the site with facebook and can see all the other friends who are also on the app. They are ranked based on the number of messages the user exchanges with them (closeness). The user may choose to add each friend to his "notification lsit" or choose "follow all". Adding someone means that the user will see updates from that person, and the other person may decline. After this initial setup the user is brought to the dashboard where he may post an announcement -- what he is doing, where, when, and how long the post should appear for (default is 1 hour). He may also choose the audience, whether public, all friends that follow him, or a specific circle. The user may create sub-groups that involve other users that follow him, as well as "circles" where all users follow each other. Below the status update, just like on facebook, the user may see all the announcements posted by friends. To see public posts from users not on his friend list, the user should click a button at the right hand corner that manages that.
+
+Architecture
+
+    As most of us are decent at Python we decided to use the Django framework and make a web app easily accessible from all devices and the go-to option for an MVP. We'll also use the facebook API for the login. We might need to use mongodb as the database as facebook might provide their friend data in that format. 
+    
+

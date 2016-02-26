@@ -1,0 +1,133 @@
+---
+title: A week of beginnings and hopes
+summary: |
+  Coming up with an idea is fun. Actually figuring out how it will work in the 
+  real world is even more exciting. Join us for the ride.
+news:
+---
+MVP
+
+    The most valuable player is the idea. Please find a draft of our thoughts
+    below.
+
+Customer
+   
+    The primary customer of this app is the group of Yale college students that 
+    is looking for a late-night snack in their buttery (or another buttery on 
+    campus).
+
+Pain
+   
+      *There is no centralized location of menus, times, or locations for the 
+      campus butteries. 
+      *Students have to go to the buttery to place their order, where things 
+      are either out of stock/there is a long wait for food.
+
+Solution
+
+      A web application that lists the butteries, their hours, locations and 
+      menus would resolve the first problem, as there would be a central website 
+      that students could go to to obtain information on the butteries. The web 
+      application would allow students to place orders to the buttery, displaying 
+      the orders to the workers downstairs and an approximate pickup time, and 
+      would allow each buttery manager to edit the menu as they see fit (or run 
+      out of a product). Think about it as a Yale Dining App for butteries, with 
+      additional features (ordering, music requests, etc.)
+
+How we know this is a problem
+
+      Nick is a buttery manager, and has noticed that fewer students are coming
+      to his own buttery (and others through talking to the managers) because 
+      they are too busy to be distracted by buttery culture. In addition, many 
+      people do not know when their own butteries (or others, for that matter) 
+      are open, and are usually pleasantly surprised when they find out that 
+      Davenport’s buttery is open on weekends.
+
+Acquiring customers
+ 
+      To reach these customers, each individual buttery manager can advertise 
+      the website through their college’s panlist server (which sends to all 
+      residents of that particular college). Most butteries send out an email 
+      every week or so to the entire college, and can include the link in these 
+      emails. It could also come through each college’s council, which sends 
+      out college-wide updates to all students. Social media posts would also 
+      advertise to each student’s personal connections, and would hopefully 
+      broaden the market of users.
+
+Profitability
+
+      The app itself would be non-profit (meaning, the information and service 
+      would be provided to butteries and students at no cost). However, we hope
+      that the web application will increase the profits of the butteries around 
+      campus.
+
+Risks
+
+      *Other buttery managers do not buy into the service 
+      *Students do not use the web application for information or ordering
+      *The online ordering system destroys the culture of hanging out with 
+      friends in the buttery
+      *The web application is not actually useful for ordering and is 
+      glitchy/difficult to use by buttery teams across campus
+      *The buttery managers fail to update information and the web application 
+      falls out of use due to old, static information
+ 
+ Handling risks
+  
+      By piloting the project in Davenport’s buttery first, we can easily work 
+      out glitches for other butteries, and can get user feedback from the 
+      customers there. This gives us an opportunity to talk with users, and ask 
+      them what they would like to see as part of the web application. By 
+      making the app as great as it can be in a few weeks, we can pitch the 
+      best product possible to other butteries, and will hopefully get buy-in 
+      from them to use the app. At the very least, whether or not each buttery 
+      decides to use the built-in ordering system, we will have an application 
+      that will give the student body information as to what’s going on in the 
+      butteries, working hours and location in the least.
+ 
+ Functionality
+ 
+      Since our website will connect students to their butteries, we plan to 
+      develop relationships with all 12 buttery managers so they can connect 
+      with their prospective customers through each 400-person residential 
+      college. To develop value, we need to build a buttery menu and time of 
+      operations, an out of stock list, an order queue, possibly a song request 
+      platform, a food item request platform and, if we have the time, a payment 
+      method potentially through Square.
+        
+      As a user, I can in log in with my netID credentials and choose a 
+      residential college buttery. There, I can see operating hours, a list of 
+      menu items and if the item is out of stock, there will be a stick-through 
+      on the item name. That will be the main page of the website. On the top, 
+      there will be other tabs like My Orders (where you can see previous orders 
+      and send an order to a buttery), Request a Song (where you can queue up a 
+      song on Spotify), Request Food (where you can send suggestions to buttery 
+      managers on what to carry), and a Feedback/Contact Us for internal 
+      development. 
+
+Architecture
+
+    *The data for this application follows a more or less static structure. The 
+    only properties that differ between butteries are menu items which just 
+    involves adding more rows. The properties (name, price, availability) pretty
+    much cover all the features of this app and, since there’s no plans to expand 
+    beyond the 12 butteries a traditional relational database seems like the 
+    best course of action.
+    *From a technical perspective this application is not that complicated. 
+    The app will merely need to pull hours / food availability / price from the 
+    database and then draw it on the app. Since butteries obviously won’t deliver 
+    there’s no need to do in-app payment since they can just pay at the buttery 
+    (potentially with square as previously mentioned) which removes any need for 
+    encrypted credit cards numbers or any other security vulnerabilities. It is, 
+    at its core, a simple application that follows MVC.
+    *Users are divided into vendors and customers, and orders from the customers 
+    show up in the vendors’ dashboards
+    *Users are named based on their netIDs to prevent fake accounts from placing 
+    fake orders
+    *Placing orders is handled with a simple form that users submit in a similar 
+    manner to the social to-do app, 
+    *As previously mentioned, this code will be deployed via collaboration with 
+    the buttery managers. It will be developed as a web application and pushed 
+    to mobile via something like Mozilla Prism.
+    
+
